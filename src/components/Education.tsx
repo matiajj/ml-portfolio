@@ -4,7 +4,7 @@ const Education = () => {
   return (
     <div className={'w-1/2 mb-5'}>
       <h2
-        className={'mb-4 text-white text-3xl tracking-[2px] font-clash-display font-medium flex items-center'}>
+        className={'mb-4 text-white text-[2rem] tracking-[2px] font-clash-display font-medium flex items-center'}>
         <BsMortarboardFill size={30} className={'mr-4'}/>
         Education
       </h2>

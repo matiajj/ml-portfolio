@@ -6,13 +6,13 @@ import Experience from "./Experience.tsx";
 const About = () => {
   return (
     <div className={'bg-[#386641] px-[20rem] py-[6rem]'}>
-      <h1 className={'mb-[4rem] text-white text-center text-6xl underline underline-offset-8 tracking-[2px] font-clash-display font-semibold'}>
+      <h1 className={'mb-[4rem] text-white text-center text-[4rem] underline underline-offset-8 tracking-[2px] font-clash-display font-semibold'}>
         About me
       </h1>
 
       <div className={'flex flex-row mb-6'}>
         <div className={'w-2/3 pr-20'}>
-          <h2 className={'mb-2 text-white text-3xl tracking-[2px] font-clash-display font-medium flex items-center'}>
+          <h2 className={'mb-2 text-white text-[2rem] tracking-[2px] font-clash-display font-medium flex items-center'}>
             <BsFilePerson size={30} className={'mr-4'}/>
             Bio
           </h2>
