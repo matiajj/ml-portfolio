@@ -8,8 +8,8 @@ import HeroListEntry from "./HeroListEntry.tsx";
 
 const Hero = () => {
   return (
-    <div className="px-[8rem] pb-[0rem] text-[#333] h-lvh flex flex-row items-center">
-      <div className={'w-1/2'}>
+    <div className="px-[8rem] py-[8rem] text-[#333] h-lvh flex flex-row items-center">
+      <div className={'min-w-192 w-224'}>
         <h1 className={'mb-4 text-[4.75rem] tracking-[2px] font-clash-display font-semibold leading-20'}>Matija Lovreković</h1>
         <p className={'mb-16 text-[1.25rem] font-archivo'}>Student, web developer and cybersecurity enthusiast from Croatia.</p>
 
@@ -38,7 +38,7 @@ const Hero = () => {
         </ul>
       </div>
 
-      <div className={'w-1/2'}>
+      <div className={'min-w-72 max-w-156 w-full'}>
         <img src={portrait} alt={'matija'} className={'mx-auto w-156'}/>
       </div>
 

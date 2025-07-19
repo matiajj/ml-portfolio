@@ -11,7 +11,7 @@ interface Props {
 
 const ProjectCard = ({image, title, description, tags, link}: Props) => {
   return (
-    <div className={'w-112 mb-[4rem]'}>
+    <div className={'w-112 mb-[4rem] mx-auto'}>
       <div className={'min-h-49 border-b-2 border-[#386641] p-2'}>
         <img src={image} alt={'mrl'} className={' shadow-md'}/>
       </div>

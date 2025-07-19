@@ -13,16 +13,16 @@ import SkillsCard from "./SkillsCard.tsx";
 
 const Development = () => {
   return (
-    <div className={'w-168 mr-24'}>
+    <div className={'w-162 mr-24'}>
       <h2
         className={'mb-4 text-white text-[2rem] tracking-[2px] font-clash-display font-medium flex items-center'}>
         <BsBraces size={30} className={'mr-4'}/>
         Development
       </h2>
       <p className={'mb-8 text-gray-200 text-justify font-archivo text-[1.25rem] leading-9'}>
-        Computer science student passionate about his field.
-        Born in Petrinja, now studying in Zagreb. I primarily work
-        on front-end web development projects, while continuously building my cybersecurity skills.
+        In my early development days, I worked on C# applications ranging from small tools that supported my
+        high school lab work to larger projects with GUI. During my time at university,
+        I focused on web development and created projects that consistently received top grades.
       </p>
       <div className={'flex flex-row flex-wrap'}>
         <SkillsCard> <img src={react_logo} alt={'react_logo'}/> </SkillsCard>

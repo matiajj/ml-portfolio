@@ -14,9 +14,8 @@ const OtherSkills = () => {
         Other skills
       </h2>
       <p className={'mb-8 text-gray-200 text-justify font-archivo text-[1.25rem] leading-9'}>
-        Computer science student passionate about his field.
-        Born in Petrinja, now studying in Zagreb. I primarily work
-        on front-end web development projects, while continuously building my cybersecurity skills.
+        One of my favorite hobbies is photography, which inspired me to learn photo editing using Adobe’s suite of apps.
+        Another hobby led me to explore digital audio workstations (DAWs), with Ableton Live being my favorite one.
       </p>
       <div className={'flex flex-row flex-wrap'}>
         <SkillsCard> <img src={live_logo} alt={'live_logo'}/> </SkillsCard>
