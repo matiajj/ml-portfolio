@@ -2,9 +2,9 @@ import {BsMortarboardFill} from "react-icons/bs";
 
 const Education = () => {
   return (
-    <div className={'w-1/2 mb-5'}>
+    <div className={'md:w-1/2 mb-5 mr-4'}>
       <h2
-        className={'mb-4 text-white text-[2rem] tracking-[2px] font-clash-display font-medium flex items-center'}>
+        className={'mb-4 text-white sm:text-[2rem] text-[1.5rem] tracking-[2px] font-clash-display font-medium flex items-center'}>
         <BsMortarboardFill size={30} className={'mr-4'}/>
         Education
       </h2>
@@ -15,7 +15,7 @@ const Education = () => {
         <h3 className={'text-gray-300'}>Oct 2022 - Jul 2025</h3>
       </div>
 
-      <div className={' font-archivo'}>
+      <div className={'font-archivo'}>
         <h2 className={'text-white font-medium'}>Technical School Sisak</h2>
         <h3 className={'text-gray-100'}>Computer Technician</h3>
         <h3 className={'text-gray-300'}>Sep 2018 - Jul 2022</h3>

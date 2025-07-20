@@ -4,7 +4,7 @@ import OtherSkills from "./OtherSkills.tsx";
 
 const Skills = () => {
   return (
-    <div className={'relative px-[20rem] pt-[6rem] pb-[8rem] overflow-hidden'}>
+    <div className={'relative 2xl:px-[20rem] xl:px-[14rem] lg:px-[6rem] md:px-[4rem] px-[1.5rem] pt-[6rem] pb-[8rem] overflow-hidden'}>
       <img
         src={bg}
         alt="skills background"
@@ -13,12 +13,13 @@ const Skills = () => {
 
       <div className={'relative z-10'}>
         <h1
-          className={'mb-[4rem] text-white text-center text-[4rem] underline underline-offset-8 tracking-[2px] font-clash-display font-semibold'}>
+          className={'mb-[4rem] text-white text-center sm:text-[4rem] text-[3rem] underline underline-offset-8 tracking-[2px] font-clash-display font-semibold'}>
           Skills
         </h1>
-        <div className={'flex flex-wrap flex-row mb-6 justify-between'}>
-          <Development />
-          <OtherSkills />
+        <div className={'flex lg:flex-row flex-col mb-6 justify-between'}>
+          <Development/>
+          <div className={'lg:mb-[0rem] mb-[2rem]'}/>
+          <OtherSkills/>
         </div>
       </div>
     </div>

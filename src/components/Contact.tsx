@@ -3,14 +3,15 @@ import ContactOther from "./ContactOther.tsx";
 
 const Contact = () => {
   return (
-    <div className={'px-[20rem] py-[6rem] h-lvh'}>
-      <h1 className={'mb-[4rem] text-[#333] text-center text-[4rem] ' +
+    <div className={'2xl:px-[18rem] xl:px-[10-rem] lg:px-[6rem] px-[1.5rem] py-[6rem] h-lvh'}>
+      <h1 className={'mb-[4rem] text-[#333] text-center sm:text-[4rem] text-[3rem] ' +
         'underline underline-offset-8 tracking-[2px] font-clash-display font-semibold'}>
         Contact
       </h1>
 
-      <div className={'flex flex-row flex-wrap mb-6 justify-between'}>
+      <div className={'flex lg:flex-row flex-col-reverse mb-6 justify-between'}>
         <ContactForm/>
+        <div className={'sm:mb-[0rem] mb-[0.5rem]'}/>
         <ContactOther/>
       </div>
 

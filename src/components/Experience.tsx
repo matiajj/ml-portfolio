@@ -2,9 +2,9 @@ import {BsPersonBadgeFill} from "react-icons/bs";
 
 const Experience = () => {
   return (
-    <div className={'w-1/2 mb-5'}>
+    <div className={'md:w-1/2 mb-5'}>
       <h2
-        className={'mb-4 text-white text-[2rem] tracking-[2px] font-clash-display font-medium flex items-center'}>
+        className={'mb-4 text-white sm:text-[2rem] text-[1.5rem] tracking-[2px] font-clash-display font-medium flex items-center'}>
         <BsPersonBadgeFill size={30} className={'mr-4'}/>
         Experience
       </h2>

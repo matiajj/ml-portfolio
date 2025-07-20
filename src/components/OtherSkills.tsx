@@ -7,13 +7,13 @@ import office_logo from "../assets/images/other/office.svg";
 
 const OtherSkills = () => {
   return (
-    <div className={'w-128'}>
+    <div className={'lg:w-128'}>
       <h2
-        className={'mb-4 text-white text-[2rem] tracking-[2px] font-clash-display font-medium flex items-center'}>
+        className={'mb-4 text-white sm:text-[2rem] text-[1.5rem] tracking-[2px] font-clash-display font-medium flex items-center'}>
         <BsLightbulb size={30} className={'mr-4'}/>
         Other skills
       </h2>
-      <p className={'mb-8 text-gray-200 text-justify font-archivo text-[1.25rem] leading-9'}>
+      <p className={'mb-8 text-gray-200 font-archivo sm:text-[1.25rem] text-[1.125rem] md:leading-9 leading-7'}>
         One of my favorite hobbies is photography, which inspired me to learn photo editing using Adobe’s suite of apps.
         Another hobby led me to explore digital audio workstations (DAWs), with Ableton Live being my favorite one.
       </p>

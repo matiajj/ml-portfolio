@@ -2,8 +2,8 @@ import {BiEnvelopeOpen} from "react-icons/bi";
 
 const ContactForm = () => {
   return (
-    <div className="w-156 p-6 bg-white rounded-sm font-archivo text-[#333]">
-      <h2 className="text-[2rem] font-semibold mb-6 flex items-center">
+    <div className="lg:w-156 w-full p-6 bg-white rounded-sm font-archivo text-[#333]">
+      <h2 className="sm:text-[2rem] text-[1.75rem] font-semibold mb-6 flex items-center">
         <BiEnvelopeOpen size={35} className={'mr-4'} />
         Reach out to me!
       </h2>

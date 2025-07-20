@@ -5,8 +5,8 @@ import marketplace from '../assets/images/projects/marketplace-vozila.png'
 
 const Projects = () => {
   return (
-    <div className={'px-[14rem] py-[6rem]'}>
-      <h1 className={'mb-[4rem] text-[#333] text-center text-[4rem] ' +
+    <div className={'2xl:px-[14rem] xl:px-[10-rem] lg:px-[6rem] px-[1.5rem] py-[6rem]'}>
+      <h1 className={'mb-[4rem] text-[#333] text-center sm:text-[4rem] text-[3rem] ' +
         'underline underline-offset-8 tracking-[2px] font-clash-display font-semibold'}>
         Projects
       </h1>
