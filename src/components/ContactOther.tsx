@@ -1,5 +1,5 @@
 import {BiWifi} from "react-icons/bi";
-import {BsEnvelope, BsGithub, BsInstagram, BsLinkedin} from "react-icons/bs";
+import {BsBoxArrowUpRight, BsEnvelope, BsGithub, BsInstagram, BsLinkedin} from "react-icons/bs";
 
 const ContactOther = () => {
   return (
@@ -9,20 +9,29 @@ const ContactOther = () => {
         Connect with me!
       </h2>
       <div>
-        <ul className={'px-3 py-6'}>
+        <ul className={'px-3 py-2'}>
           <li className={'flex items-center sm:text-[1.25rem] mb-6'}>
             <BsLinkedin size={25} className={'mr-4'}/>
             LinkedIn
+            <a href={'https://www.linkedin.com/in/matija-lovrekovic'} target="_blank" className={'ml-4'}>
+              <BsBoxArrowUpRight size={18} className={'cursor-pointer'}/>
+            </a>
           </li>
 
           <li className={'flex items-center sm:text-[1.25rem] mb-6'}>
             <BsGithub size={25} className={'mr-4'}/>
             Github
+            <a href={'https://github.com/matiajj'} target="_blank" className={'ml-4'}>
+              <BsBoxArrowUpRight size={18} className={'cursor-pointer'}/>
+            </a>
           </li>
 
           <li className={'flex items-center sm:text-[1.25rem] mb-6'}>
             <BsInstagram size={25} className={'mr-4'}/>
             Instagram
+            <a href={'https://www.instagram.com/matijalovrekovic3'} target="_blank" className={'ml-4'}>
+              <BsBoxArrowUpRight size={18} className={'cursor-pointer'}/>
+            </a>
           </li>
 
           <li className={'flex items-center sm:text-[1.25rem] mb-6'}>

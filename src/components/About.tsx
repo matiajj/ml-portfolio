@@ -6,7 +6,7 @@ import Experience from "./Experience.tsx";
 
 const About = () => {
   return (
-    <div className={'relative py-[6rem] 2xl:px-[20rem] xl:px-[14rem] lg:px-[6rem] md:px-[4rem] px-[1.5rem] overflow-hidden'}>
+    <div id={"about"} className={'relative py-[6rem] 2xl:px-[20rem] xl:px-[14rem] lg:px-[6rem] md:px-[4rem] px-[1.5rem] overflow-hidden'}>
       <img
         src={bg}
         alt="background"

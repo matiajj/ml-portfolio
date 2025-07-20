@@ -24,9 +24,9 @@ const ContactForm = () => {
           <label htmlFor="message" className="block text-sm font-medium mb-1">Message</label>
           <textarea id="message" rows={4}
                     className="w-full py-4 px-5 border-2 border-solid border-[#555] rounded-sm focus:outline-none focus:ring-2 focus:ring-[#777]"
-                    placeholder="Write your message here..." required></textarea>
+                    placeholder="Write your message here... (This isn't implemented at the moment, connect with me instead.)" required></textarea>
         </div>
-        <button type="submit"
+        <button type="submit" disabled
                 className="w-full text-[1.1rem] font-semibold bg-[#386641] text-white py-2 px-4 rounded-sm">Send
           Message
         </button>
